@@ -258,7 +258,9 @@ a {
     padding-top: 32px;
     padding-bottom: 131px;
   }
-
+  .hero-container {
+    background-image: none;
+  }
   .hero-box {
     display: flex;
     gap: 50px;
