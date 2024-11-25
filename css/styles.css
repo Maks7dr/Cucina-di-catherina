@@ -121,8 +121,6 @@ a {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .header-container {
-  }
   .logo {
     margin-right: 140px;
   }
@@ -240,15 +238,12 @@ a {
 .hero-img {
   display: none;
 }
-@media only screen and (max-width: 1023px) {
-  .hero-img-mobile {
-    position: absolute;
-    right: 15px;
-    top: -16px;
-  }
-}
 .hero-img-mobile {
+  position: absolute;
+  right: 15px;
+  top: -16px;
 }
+
 .social-list {
   display: flex;
   gap: 24px;
@@ -294,6 +289,9 @@ a {
   }
   .hero-img {
     display: block;
+  }
+  .hero-img-mobile {
+    display: none;
   }
   .hero-btn {
     width: 302px;
@@ -421,8 +419,6 @@ a {
   .souce {
     padding-top: 32px;
     padding-bottom: 30px;
-  }
-  .souce-container {
   }
   .souce-icon-top {
     width: 32px;
