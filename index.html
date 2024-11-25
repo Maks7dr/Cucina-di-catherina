@@ -23,41 +23,43 @@
   </head>
   <body>
     <!-- #region Header -->
-    <header class="header container">
-      <a href="./index.html" class="logo">
-        <svg width="32" height="32" class="icon-logo">
-          <use href="./images/icons.svg#icon-logo"></use>
-        </svg>
-        CUCINA
-      </a>
-      <nav class="header-nav">
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a href="./index.html" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Store</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Recipes</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Gallery</a>
-          </li>
-        </ul>
-      </nav>
-      <button type="button" class="header-btn">Contact us</button>
-      <button type="button" class="header-btn-menu">
-        <svg width="31" height="16" class="icon-line">
-          <use href="./images/icons.svg#icon-line"></use>
-        </svg>
-      </button>
+    <header class="header">
+      <div class="header-container container">
+        <a href="./index.html" class="logo">
+          <svg width="32" height="32" class="icon-logo">
+            <use href="./images/icons.svg#icon-logo"></use>
+          </svg>
+          CUCINA
+        </a>
+        <nav class="header-nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Store</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Recipes</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Gallery</a>
+            </li>
+          </ul>
+        </nav>
+        <button type="button" class="header-btn">Contact us</button>
+        <button type="button" class="header-btn-menu">
+          <svg width="31" height="16" class="icon-line">
+            <use href="./images/icons.svg#icon-line"></use>
+          </svg>
+        </button>
+      </div>
     </header>
     <!-- #endregion -->
     <main>
       <!-- #region Hero -->
       <section class="hero">
-        <div class="header-container container">
+        <div class="hero-container container">
           <div class="hero-box">
             <div class="hero-wrapper">
               <h1 class="hero-title">CUCINA DI CATHERINA</h1>
@@ -81,7 +83,7 @@
               src="./images/sauce.svg"
               alt="Ketchup"
               width="432"
-              height="579"
+              height="577"
               class="hero-img"
             />
           </div>
@@ -129,35 +131,34 @@
       <section class="souce">
         <div class="souce-container container">
           <h2 class="visually-hidden">Souce</h2>
-          <div class="souce-wrapper">
-            <svg width="16" height="16" class="souce-icon-top">
-              <use href="./images/icons.svg#icon-arrow-top"></use>
-            </svg>
-            <svg width="16" height="16" class="souce-icon-bottom">
-              <use href="./images/icons.svg#icon-arrow-bottom"></use>
-            </svg>
+          <svg width="32" height="32" class="souce-icon-top">
+            <use href="./images/icons.svg#icon-arrow-top"></use>
+          </svg>
+          <svg width="32" height="32" class="souce-icon-bottom">
+            <use href="./images/icons.svg#icon-arrow-bottom"></use>
+          </svg>
+          <div class="souce-wrapper-top">
             <div class="souce-box-img">
               <img
                 src="./images/tomato.png"
                 alt="Tomato"
                 width="349"
                 height="349"
-                class="souce-img"
               />
             </div>
-            <div class="souce-box">
+            <div class="souce-box-top">
               <h3 class="souce-title">Classic sauce</h3>
-              <p class="souce-text">
+              <p class="souce-text-top">
                 The most delicate taste of tomatoes, combined with branded
                 spices and white wine, will make your dish incredibly tasty.
               </p>
               <button type="button" class="btn souce-btn">Buy now</button>
             </div>
           </div>
-          <div class="souce-wrapper">
-            <div class="souce-box">
+          <div class="souce-wrapper-bottom">
+            <div class="souce-box-bottom">
               <h3 class="souce-title">Spicy sauce</h3>
-              <p class="souce-text souce-text-bottom">
+              <p class="souce-text-bottom">
                 For thrill-seekers, we added hot chili pepper to our sauce, it
                 also reveals all the tastes and aromas of the sauce well.
               </p>
@@ -169,7 +170,6 @@
                 alt="Chili"
                 width="349"
                 height="349"
-                class="souce-img"
               />
             </div>
           </div>
