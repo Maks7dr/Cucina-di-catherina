@@ -698,6 +698,7 @@ a {
 .address-text {
   font-weight: 400;
   font-size: 16px;
+  font-style: normal;
 }
 .address-icon {
   fill: #f3f3f3;
@@ -713,7 +714,6 @@ a {
   line-height: 212%;
   color: #979797;
   text-align: center;
-  font-style: normal;
 }
 .footer-link {
   font-weight: 500;
