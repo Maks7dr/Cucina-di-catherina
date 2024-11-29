@@ -937,6 +937,7 @@ a {
   border-radius: 16px;
   resize: none;
   padding: 8px 16px;
+  display: none;
 }
 
 .comment-box {
@@ -974,5 +975,9 @@ a {
   height: 66px;
   background: rgba(188, 26, 26, 0.2);
   border: none;
+  transition: 0.3s ease-in-out;
+}
+.form-btn:hover {
+  background-color: rgba(188, 26, 26, 0.5);
 }
 /* #endregion */
