@@ -47,8 +47,14 @@
             </li>
           </ul>
         </nav>
-        <button type="button" class="header-btn">Contact us</button>
-        <button type="button" class="header-btn-menu js-open-menu">
+        <button type="button" name="Contact" class="header-btn">
+          Contact us
+        </button>
+        <button
+          type="button"
+          name="open-menu"
+          class="header-btn-menu js-open-menu"
+        >
           <svg width="31" height="16" class="icon-line">
             <use href="./images/icons.svg#icon-line"></use>
           </svg>
@@ -63,7 +69,11 @@
               </svg>
               CUCINA
             </a>
-            <button type="button" class="close-btn js-close-menu">
+            <button
+              type="button"
+              name="close-menu"
+              class="close-btn js-close-menu"
+            >
               <svg width="18" height="18" class="close-icon">
                 <use href="./images/icons.svg#icon-close"></use>
               </svg>
@@ -83,7 +93,7 @@
               <a href="#gallery" class="nav-link mob-link">Gallery</a>
             </li>
           </ul>
-          <button type="button" class="header-btn mobile-btn">
+          <button type="button" name="Contact-us" class="header-btn mobile-btn">
             Contact us
           </button>
         </div>
@@ -100,7 +110,12 @@
                 We know,<br />
                 you will <span class="hero-span">love</span> our product
               </h2>
-              <button type="button" class="btn hero-btn" data-modal-open>
+              <button
+                type="button"
+                name="open-modal"
+                class="btn hero-btn"
+                data-modal-open
+              >
                 Buy now
               </button>
               <ul class="hero-list">
@@ -114,7 +129,6 @@
                 </li>
               </ul>
             </div>
-
             <img
               src="./images/sauce.svg"
               alt="Ketchup"
@@ -122,42 +136,43 @@
               height="577"
               class="hero-img"
             />
+            <img
+              srcset="
+                ./images/ketchup-mobile.png   1x,
+                /images/ketchup-mobile@2x.png 2x
+              "
+              src="./images/ketchup-mobile.png"
+              alt="Ketchup"
+              width="202"
+              height="350"
+              class="hero-img-mobile"
+            />
           </div>
-          <img
-            srcset="
-              ./images/ketchup-mobile.png   1x,
-              /images/ketchup-mobile@2x.png 2x
-            "
-            src="./images/ketchup-mobile.png"
-            alt="Ketchup"
-            width="202"
-            height="350"
-            class="hero-img-mobile"
-          />
+
           <ul class="social-list">
             <li class="social-item">
-              <a href="" class="social-link">
+              <a href="http://tumbrl.com" class="social-link">
                 <svg width="16" height="16" class="social-icon">
                   <use href="./images/icons.svg#icon-tumblr"></use>
                 </svg>
               </a>
             </li>
             <li class="social-item">
-              <a href="" class="social-link">
+              <a href="http://instagram.com" class="social-link">
                 <svg width="16" height="16" class="social-icon">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="social-item">
-              <a href="" class="social-link">
+              <a href="http://youtube.com" class="social-link">
                 <svg width="16" height="16" class="social-icon">
                   <use href="./images/icons.svg#icon-youtube"></use>
                 </svg>
               </a>
             </li>
             <li class="social-item">
-              <a href="" class="social-link">
+              <a href="http://twitter.com" class="social-link">
                 <svg width="16" height="16" class="social-icon">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
@@ -192,7 +207,12 @@
                 The most delicate taste of tomatoes, combined with branded
                 spices and white wine, will make your dish incredibly tasty.
               </p>
-              <button type="button" class="btn souce-btn" data-modal-open>
+              <button
+                type="button"
+                name="open-modal"
+                class="btn souce-btn"
+                data-modal-open
+              >
                 Buy now
               </button>
             </div>
@@ -204,7 +224,12 @@
                 For thrill-seekers, we added hot chili pepper to our sauce, it
                 also reveals all the tastes and aromas of the sauce well.
               </p>
-              <button type="button" class="btn souce-btn" data-modal-open>
+              <button
+                type="button"
+                name="open-modal"
+                class="btn souce-btn"
+                data-modal-open
+              >
                 Buy now
               </button>
             </div>
@@ -361,28 +386,28 @@
         </div>
         <ul class="social-list social-footer">
           <li class="social-item">
-            <a href="" class="social-link">
+            <a href="http://tumbrl.com" class="social-link">
               <svg width="16" height="16" class="social-icon">
                 <use href="./images/icons.svg#icon-tumblr"></use>
               </svg>
             </a>
           </li>
           <li class="social-item">
-            <a href="" class="social-link">
+            <a href="http://instagram.com" class="social-link">
               <svg width="16" height="16" class="social-icon">
                 <use href="./images/icons.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
           <li class="social-item">
-            <a href="" class="social-link">
+            <a href="http://youtube.com" class="social-link">
               <svg width="16" height="16" class="social-icon">
                 <use href="./images/icons.svg#icon-youtube"></use>
               </svg>
             </a>
           </li>
           <li class="social-item">
-            <a href="" class="social-link">
+            <a href="http://twitter.com" class="social-link">
               <svg width="16" height="16" class="social-icon">
                 <use href="./images/icons.svg#icon-twitter"></use>
               </svg>
@@ -400,7 +425,7 @@
     <!-- Backdrop -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="close-btn">
+        <button type="button" name="close-modal" class="close-btn">
           <svg width="18" height="18" class="close-icon" data-modal-close>
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -549,7 +574,9 @@
               </label>
             </div>
           </fieldset>
-          <button type="submit" class="form-btn">Buy now</button>
+          <button type="submit" name="push-info" class="form-btn">
+            Buy now
+          </button>
         </form>
       </div>
     </div>
