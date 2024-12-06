@@ -124,6 +124,18 @@ a {
   }
   .logo {
     margin-right: 140px;
+    transition: 250ms ease-in-out;
+    transition-property: color;
+  }
+  .icon-logo {
+    transition: 250ms ease-in-out;
+    transition-property: fill;
+  }
+  .logo:hover {
+    color: rgba(188, 26, 26, 0.5);
+  }
+  .logo:hover .icon-logo {
+    fill: rgba(188, 26, 26, 0.5);
   }
   .nav-list {
     display: flex;
@@ -937,8 +949,6 @@ a {
   padding: 8px 31px;
   height: 100%;
 }
-.payment-box {
-}
 .payment-box-icon {
   width: 24px;
   height: 24px;
@@ -978,8 +988,6 @@ a {
   display: block;
 }
 
-.comment-box {
-}
 .comment-label-checkbox {
   display: inline-flex;
   align-items: center;
@@ -1002,10 +1010,6 @@ a {
 }
 .comment-icon {
   fill: transparent;
-}
-.comment-span {
-}
-.comment-span-checkbox {
 }
 .form-btn {
   border-radius: 16px;
