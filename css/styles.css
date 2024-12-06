@@ -974,6 +974,9 @@ a {
   padding: 8px 16px;
   display: none;
 }
+.comment-textarea:hover {
+  display: block;
+}
 
 .comment-box {
 }
