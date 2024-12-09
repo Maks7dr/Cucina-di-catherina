@@ -579,6 +579,49 @@
         </form>
       </div>
     </div>
+    <div class="backdrop-contact is-hide">
+      <div class="container modal-contact">
+        <button type="button" name="close-modal" class="close-btn">
+          <svg width="18" height="18" class="close-icon">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <form class="contact-form">
+          <p class="contact-caption">
+            Leave your contacts and we will contact you
+          </p>
+          <label for="name-contact" class="contact-label">Name</label>
+          <input
+            type="text"
+            id="name-contact"
+            placeholder="Yuliia"
+            class="contact-input"
+          />
+          <label for="phone-contact" class="contact-label">Telephone</label>
+          <input
+            type="tel"
+            id="phone-contact"
+            placeholder="+380"
+            class="contact-input"
+          />
+          <label for="email-contact" class="contact-label">Email</label>
+          <input
+            type="email"
+            id="email-contact"
+            placeholder="Contact@gmail.com"
+            class="contact-input"
+          />
+          <label for="comment-contact" class="contact-label"></label>
+          <textarea
+            name="comment-contact"
+            id="comment-contact"
+            placeholder="How can we help you?"
+            class="contact-textarea"
+          ></textarea>
+          <button type="submit" class="contact-btn btn">Contact us</button>
+        </form>
+      </div>
+    </div>
     <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
